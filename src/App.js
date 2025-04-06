@@ -47,10 +47,11 @@ function App() {
         </tbody>
       </table>
 
-      <div style={{ marginTop: '2rem' }}>
-        <strong>Volume total :</strong> {totalVolume.toFixed(3)} m³<br />
-        <strong>Poids total :</strong> {totalPoids.toFixed(2)} kg
+      <div className="result">
+        <div className="volume">Volume total : {totalVolume.toFixed(3)} m³</div>
+        <div className="poids">Poids total : {totalPoids.toFixed(2)} kg</div>
       </div>
+
     </div>
   );
 }
